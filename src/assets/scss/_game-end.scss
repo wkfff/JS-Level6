@@ -1,0 +1,60 @@
+%game-end__subtitle__line {
+  position: absolute;
+  background: white;
+  height: 5px;
+  width: 2.3rem;
+}
+
+.game-end {
+  width: 770px;
+  padding: 213px 15px 0;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-end__title {
+  font-size: 30px;
+  border: 4px solid white;
+  color: white;
+  padding: .5rem 1rem;
+}
+
+.game-end__subtitle {
+  position: relative;
+  font-size: 56px;
+  color: black;
+
+  &::before {
+    content: '';
+    @extend %game-end__subtitle__line;
+    top: 50%;
+    left: -3.5rem;
+  }
+
+  &::after {
+    content: '';
+    @extend %game-end__subtitle__line;
+    top: 50%;
+    right: -3.5rem;
+  }
+}
+
+.game-end__score {
+  font-size: 112px;
+  font-weight: bold;
+  color: black;
+}
+
+.icon-rank {
+  font-size: 40px;
+  background: black;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

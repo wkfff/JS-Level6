@@ -1,0 +1,34 @@
+$bg-body: #FF9D00;
+$color-primary: #000000;
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Microsoft JhengHei, 'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  height: 100vh;
+  background: $bg-body;
+}
+
+.bg-primary {
+  background: $color-primary;
+}
+
+.game-container {
+  width: 770px;
+  margin: 0 auto;
+}
+
+.btn-game {
+  color: $bg-body;
+  
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+
+.btn-game-lg {
+  width: 350px;
+  font-size: 2rem;
+}

@@ -1,0 +1,11 @@
+export const SET_SCORE = 'SET_SCORE';
+export const SET_STAGE = 'SET_STAGE';
+export const RESET_SCORE = 'RESET_SCORE';
+export const CREATE_ROOM = 'CREATE_ROOM';
+export const SET_ROOM = 'SET_ROOM';
+export const DROP_ROOM = 'DROP_ROOM';
+export const LEAVE_ROOM = 'LEAVE_ROOM';
+export const SET_PLAYER = 'SET_PLAYER';
+export const SET_ROOMS = 'SET_ROOMS';
+export const SET_ONLINE_TIMER = 'SET_SET_ONLINE_TIMERROOMS';
+export const SET_SYSTEM_MESSAGE = 'SET_SYSTEM_MESSAGE';

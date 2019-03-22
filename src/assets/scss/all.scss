@@ -1,0 +1,10 @@
+@import "~bootstrap/scss/functions";
+@import "./helpers/_variables";
+@import "~bootstrap/scss/bootstrap";
+
+@import "./base";
+
+// page
+@import "./game-start";
+@import "./game-play";
+@import "./game-end";
