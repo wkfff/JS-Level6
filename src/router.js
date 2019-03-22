@@ -1,6 +1,13 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import GameStart from './pages/game-start.vue';
+import GamePlay from './pages/game-play.vue';
+import GameEnd from './pages/game-end.vue';
+import GameOnlineMode from './pages/game-online-mode.vue';
+import CreateRoom from './pages/create-room.vue';
+import JoinRoom from './pages/join-room.vue';
+import GameOnlinePlay from './pages/game-online-play.vue';
+import GameOnelineEnd from './pages/game-online-end.vue';
 
 Vue.use(Router);
 
@@ -14,37 +21,37 @@ export default new Router({
     {
       path: '/game-play',
       name: 'gamePlay',
-      component: () => import('./pages/game-play.vue'),
+      component: GamePlay,
     },
     {
       path: '/game-end',
       name: 'gameEnd',
-      component: () => import('./pages/game-end.vue'),
+      component: GameEnd,
     },
     {
       path: '/game-online-mode',
       name: 'gameOnlineSetting',
-      component: () => import('./pages/game-online-mode.vue'),
+      component: GameOnlineMode,
     },
     {
       path: '/create-room',
       name: 'createRoom',
-      component: () => import('./pages/create-room.vue'),
+      component: CreateRoom,
     },
     {
       path: '/join-room',
       name: 'joinRoom',
-      component: () => import('./pages/join-room.vue'),
+      component: JoinRoom,
     },
     {
       path: '/game-online-play',
       name: 'gameOnlinePlay',
-      component: () => import('./pages/game-online-play.vue'),
+      component: GameOnlinePlay,
     },
     {
       path: '/game-online-end',
       name: 'gameOnlineEnd',
-      component: () => import('./pages/game-online-end.vue'),
+      component: GameOnelineEnd,
     },
   ],
 });

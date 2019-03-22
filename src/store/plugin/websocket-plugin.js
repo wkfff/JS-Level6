@@ -3,8 +3,8 @@ import * as types from '../mutation-types';
 
 export default (store) => {
   let groupSocket = null;
-  const socket = openSocket('http://localhost:5000/');
-  // const socket = openSocket('https://ancient-hamlet-91353.herokuapp.com/');
+  // const socket = openSocket('http://localhost:5000/');
+  const socket = openSocket('https://arcane-temple-97328.herokuapp.com/');
   // 監聽有房間新開或刪除 (全域)
   socket.on('updateRooms', () => {
     console.log('update rooms');
