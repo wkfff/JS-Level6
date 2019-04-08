@@ -1,29 +1,9 @@
-# js-level6
+# 單人版、線上對戰遊戲
 
-## Project setup
+[DEMO](https://cos214159.github.io/JS-Level6/#/)
+
+## 安裝方式
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
